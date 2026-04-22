@@ -1,4 +1,4 @@
-{% set version = "1.8.4" %}
+{% set version = "1.8.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/loadeR/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 5230832170291353017a7a1b4a9e65a959ade5d49eb311f1794219b6384dfd58
+  sha256: 7496a4de8b66d93778e054ba19edd31db01ac63cdec66dc078f01264074d3e67
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
