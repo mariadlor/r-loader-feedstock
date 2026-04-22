@@ -56,3 +56,6 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - cofinoa
+    - mariadlor
+    - jbedia
+    - miturbide
