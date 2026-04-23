@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/loadeR/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 7496a4de8b66d93778e054ba19edd31db01ac63cdec66dc078f01264074d3e67
+  sha256: ae62aa950daaef49600071b397c0d216bf156a0235cd50855f1a69301044c133
 
 build:
   number: 0
